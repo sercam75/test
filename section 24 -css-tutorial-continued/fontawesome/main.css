@@ -1,0 +1,39 @@
+/* h1 {
+  text-shadow: 2px 2px 1px red;
+  transition: all 2s ease-in-out;
+}
+h1:hover {
+  transform: translateX(30px);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 10px 1px 5px green;
+  transition: all 2s ease-in-out;
+}
+.box:hover {
+  -webkit-box-shadow: 14px 13px 38px 14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 13px 38px 14px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 13px 38px 14px rgba(0, 0, 0, 0.75);
+  transform: translateX(50px);
+} */
+
+.navbar {
+  background: red;
+  font-size: 2rem;
+}
+.nav {
+  background: blue;
+  font-size: 2rem;
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}

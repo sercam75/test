@@ -1,0 +1,21 @@
+div {
+  background: #f15025;
+  margin: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+.none {
+  display: none;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0.1;
+}
+.visibility {
+  visibility: visible;
+}

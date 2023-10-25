@@ -1,0 +1,26 @@
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+body {
+  font-weight: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.one {
+  letter-spacing: 5px;
+}
+h1 {
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  text-transform: uppercase;
+}
+.two {
+  word-spacing: 10px;
+  /* line-height: 2.5;
+  text-decoration: overline; */
+  text-transform: lowercase;
+}
+.three {
+  text-transform: capitalize;
+}

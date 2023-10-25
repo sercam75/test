@@ -1,0 +1,15 @@
+#first {
+  color: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
+}
+#second {
+  color: rgba(0, 255, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+#third {
+  color: #0000ff;
+  background: rgb(200, 90, 230);
+}
+body {
+  background: rgb(150, 34, 210);
+}

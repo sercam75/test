@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+}
+.nav {
+  height: 5rem;
+  background: #222;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.nav-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.nav-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  /* border: 1px solid red;
+  padding-left: 2rem; */
+}
+.hero {
+  min-height: calc(100vh - 5rem);
+  background: rgb(105, 62, 27);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background: linear-gradient(
+        to right,
+        rgba(105, 62, 27, 0.5),
+        rgba(105, 62, 27, 1)
+      ),
+      url(./hero-bcg.jpg) center/cover;
+  }
+}
+.hero-center {
+  width: 90vw;
+  padding: 5rem 0;
+  max-width: 1170px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.hero-center h1 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.hero-center p {
+  margin-bottom: 25px;
+  max-width: 35em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.hero-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background: rgba(250, 250, 250, 0.1);
+}
+.temp {
+  min-height: 100vh;
+  background: rgb(255, 0, 13);
+}
